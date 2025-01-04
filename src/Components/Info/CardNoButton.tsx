@@ -6,7 +6,7 @@ interface CardnoProps {
 }
 const CardnoButton = ({title , description} : CardnoProps) => {
   return (
-    <div className="flex flex-wrap items-center p-6 border rounded-lg transition-colors hover:border-gray-400">
+    <div className="flex flex-col items-center p-6 border rounded-lg transition-colors hover:border-gray-400">
       <div className="">
         <h1 className="mb-2 font-reenie text-2xl text-black sm:mb-4 ">
           {title}
