@@ -10,7 +10,7 @@ import ButtonWhite from "@/Components/Templates/ButtonWhite";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center mt-4 py-2 md:mt-24">
+    <div className="flex flex-col items-center justify-center mt-4 py-2 md:mt-20">
       <h1 className="font-reenie text-3xl md:text-5xl text-center max-w-96 md:max-w-2xl">
         a bunch of the untold words, sent through the songs
       </h1>
@@ -20,10 +20,9 @@ export default function Home() {
       <div className="space-y-2 md:space-y-0 md:flex md:justify-center md:max-w-3xl md:mx-auto  md:items-center md:gap-4 md:p-3">
         <Button link="/submit" name={"Tell Your Story"} />
         <ButtonWhite link="/browse" name={"Browse the stories"} />
-        <ButtonStatic link="/browse" name={"Support SendTheSong"} />
       </div>
       <DescriptionFeedback />
-      <div className="p-6 inset-0 space-y-6 md:space-y-0 md:flex md:flex-row md:justify-center md:gap-2 ">
+      <div className="p-6  space-y-6 md:space-y-0 md:grid md:grid-cols-3  md:space-x-2 ">
         <Card
           description="Choose a song and write a heartfelt message to someone special."
           title="Share Your Message"

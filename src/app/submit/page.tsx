@@ -3,7 +3,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="px-4 space-y-4 mb-80">
+    <div className="px-4 space-y-4 mb-80 md:mb-24 md:mt-16 sm:px-32">
       <form action="/" className="font-inter flex flex-col gap-4 mt-10 ">
         <label htmlFor="name" className="font-semibold">Recipient Name</label>
         <input type="text" name="name" id="name"  className="border p-3 text-sm rounded-md" placeholder="Enter recipient name" />
@@ -21,9 +21,9 @@ export default function page() {
           <option value="song5">Love Story - Taylor Swift</option>
         </select>
         {/* <input type="text" name="song" id="song"  className="border p-3 rounded-md" placeholder="Enter the song" /> */}
-        <div className="flex justify-center items-center">
           <Button name="sumbit" link="/" />
-        </div>
+        {/* <div className="flex justify-center">
+        </div> */}
       </form>
 
     </div>

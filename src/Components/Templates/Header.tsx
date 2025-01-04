@@ -16,7 +16,7 @@ export default function Header() {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex md:gap-4">
         <div className="text-md font-inter text-black/70 flex flex-row gap-4">
-          <Link href={"/"} className="flex justify-center p-2">
+          <Link href={"/submit"} className="flex justify-center p-2">
             Submit
           </Link>
           <Link href={"/browse"} className="flex justify-center p-2">
